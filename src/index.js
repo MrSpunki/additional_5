@@ -12,7 +12,8 @@ module.exports = function check(str, bracketsConfig) {
         ||((arrayElements[j] === '1') && (arrayElements[j+1] === '2'))
         ||((arrayElements[j] === '3') && (arrayElements[j+1] === '4'))
         ||((arrayElements[j] === '5') && (arrayElements[j+1] === '6'))
-        ||((arrayElements[j] === '7') && (arrayElements[j+1] === '8'))) {
+        ||((arrayElements[j] === '7') && (arrayElements[j+1] === '7'))
+        ||((arrayElements[j] === '8') && (arrayElements[j+1] === '8'))) {
           
           arrayElements.splice(j, 2);
       }
